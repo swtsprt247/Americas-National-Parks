@@ -1,5 +1,5 @@
 # Flask (Server)
-from flask import Flask, render_template, request, flash, redirect
+from flask import Flask, jsonify, render_template, request, flash, redirect
 
 
 
@@ -11,7 +11,7 @@ app = Flask (__name__)
 
 @app.route('/')
 def index ():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/boundaries')
 def boundaries():
