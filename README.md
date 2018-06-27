@@ -16,7 +16,7 @@ The goal of this project is to map all of the national parks as well as gather i
 # Visualizations
 
 http://swtsprt247.pythonanywhere.com/
-![logo](/images/National-Park-Service-logo.jpg)
+
 ![logo](/images/logo_background.jpg)
 
 
