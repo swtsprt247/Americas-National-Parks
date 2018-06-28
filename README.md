@@ -6,11 +6,15 @@ Since 1916, the National Park Service has been entrusted with the care of our na
 The goal of this project is to map all of the national parks as well as gather inforomation by conducting searchings for individual parks by using an API data call
 
 
+# Collaborators
+-  https://github.com/dianekvg
+-  https://github.com/jananorvell
+-  https://github.com/pcr2f09
+
+
 # Rescources
 *  [National Park Services](https://www.nps.gov/index.htm) 
 *  [leafletJS](https://leafletjs.com/)
-
-
 
 
 # Visualizations
