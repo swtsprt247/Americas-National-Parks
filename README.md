@@ -3,7 +3,7 @@ Since 1916, the National Park Service has been entrusted with the care of our na
 
 
 # Objective
-The goal of this project is to map all of the national parks as well as gather inforomation by conducting searchings for individual parks by using an API data call
+This project provides a map of all the national parks as well as gathers individual park inforomation by conducting searches by using an API data call.
 
 
 # Collaborators
