@@ -13,5 +13,5 @@
 # cffi==1.11.5
 # pycparser==2.18
 # waitress==1.1.0
-Flask==2.3.2
-Werkzeug<0.13.0,>=0.12.0
+# Flask==2.3.2
+# Werkzeug<0.13.0,>=0.12.0
