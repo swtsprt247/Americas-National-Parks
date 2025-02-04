@@ -14,17 +14,17 @@
                         <th>Title</th>
                         <th>Url</th>
                     </tr>
-                {% for newsRelease in newsReleases %}
+                    {% for newsRelease in newsReleases %}
                     <tr>
-                        <td>{{newsRelease.parkCode}}</td>
-                        <td>{{newsRelease.releaseDate}}</td>
-                        <td>{{newsRelease.title}}</td>
-                        <td><a href= "newsRelease/{{newsRelease.id}}">{{newsRelease.url}}</a></td>
+                        <td>{{ newsRelease.parkCode }}</td>
+                        <td>{{ newsRelease.releaseDate }}</td>
+                        <td>{{ newsRelease.title }}</td>
+                        <td><a href="{{ newsRelease.url }}" target="_blank">Link</a></td>
                     </tr>
-                {% endfor %}   
-        </table>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
     </div>
-</div>
-</div>
 
 {% endblock %}
