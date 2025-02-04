@@ -1,4 +1,4 @@
-def NewsReleases ():
+def NewsReleases():
     newsReleases = [
         {
             'id': 1,
@@ -19,8 +19,15 @@ def NewsReleases ():
             'parkCode': 'Park 3',
             'releaseDate': '03-07-2018',
             'title': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
-            'url': 'https://www.nps.gov/zion/learn/news/zion-national-park-and-its-official-nonprofit-partner-zion-national-park-forever-project-announce-the-10th-annual-plein-air-art-invitational-dates-and-featured-artists.htm'
-        }
+            'url': 'url'
+        },
+        {
+            'id': 4,
+            'parkCode': 'Park 4',
+            'releaseDate': '03-08-2018',
+            'title': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
+            'url': 'url'
+        },
+        # Add more news releases as needed
     ]
     return newsReleases
-    
