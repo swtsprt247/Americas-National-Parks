@@ -1,9 +1,8 @@
 # Flask (Server)
 from flask import Flask, render_template
+from articles import NewsReleases  # Import the NewsReleases function
 
 app = Flask(__name__)
-
-# NewsReleases = NewsReleases()
 
 @app.route('/')
 def index():
@@ -15,8 +14,8 @@ def boundaries():
 
 @app.route('/articles')
 def news_releases():
-    # Assuming NewsReleases is defined elsewhere in your code
-    return render_template('newsReleases.html', newsReleases=NewsReleases)
+    news_releases = NewsReleases()  # Call the NewsReleases function
+    return render_template('newsReleases.html', newsReleases=news_releases)
 
 @app.route('/article/<string:id>/')
 def newsRelease(id):
