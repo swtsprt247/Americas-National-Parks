@@ -5,7 +5,7 @@ var myMap = L.map("map", {
 
 
 let mapboxUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
-let accessToken = 'pk.eyJ1IjoicmluY2tkIiwiYSI6ImNpamc3ODR1aDAxMmx0c2x0Zm9lc3E1OTAifQ.pIkP7PdJMrR5TBIp93Dlbg';
+let accessToken = 'YJ3J9EOCazTHrj1SUam0gHZw2lgtk7j39YqXgCUK';
 let myLayer = L.tileLayer(mapboxUrl, {id: 'mapbox.outdoors', maxZoom: 20, accessToken: accessToken});
 myLayer.addTo(myMap);
 
